@@ -1,0 +1,136 @@
+[[quiz]]
+name = "桜の咲く音がした"
+redpacket = { code = "用于演示的红包口令", price = 0, count = 0 }
+description = '''
+<style>
+.hidden {
+  display: inline-block;
+  width: 1px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 2em;
+}
+.right img {
+  object-fit: contain;
+  justify-content: space-between;
+}
+</style>
+
+<div class="container">
+<div>
+
+「<a href="https://next.mmf.moe/backlog/2023.html">向新的一年飞驰——记录 2023</a>」
+
+<code><pre>
+每题的题号都是一个 UUID
+大部分 UUID 是 36 位带横线的格式，但也有部分是 32 位无横线
+两种格式都可以正常解析
+答案正确即可进入下一题，否则会 404
+每一题的网页里都会有一个红包口令。
+除本题的口令仅为演示用途之外，其他题的口令均可用于领取红包。
+</pre></code>
+
+<span class="hidden">d</span>歩いてる　履き慣れないローファー<br>
+<span class="hidden">f</span>駅はもうすぐ<br>
+<span class="hidden">9</span>やっと少しだけ覚えてきた<br>
+<span class="hidden">e</span>朝は3両目が何となく好き<br>
+<!--<span class="hidden">e</span>--><br>
+<span class="hidden">0</span>1人　外を眺め　立っている<br>
+<span class="hidden">3</span>重たそうに掛けてる　エナメルバッグ<br>
+<span class="hidden">7</span>目と目が合った時<br>
+<span class="hidden">-</span>気まずくなったんだ<br>
+<span class="hidden">4</span>見てない携帯　スクロール<br>
+<!--<span class="hidden">3</span>--><br>
+<span class="hidden">d</span>桜　咲く音が聞こえ<br>
+<span class="hidden">d</span>日常　全てを彩り　景色を変える<br>
+<span class="hidden">-</span>見たことのない　ハートの震え<br>
+<span class="hidden">4</span>電車の揺れが
+<span class="hidden">e</span>Ah　誤魔化してくれたんだ<br>
+<span class="hidden">8</span>春の空は　ねえ　雲が　そう　広がり青を隠す<br>
+<span class="hidden">f</span>明日の次の　そのもっと先で<br>
+<span class="hidden">-</span>青空見えたら　いつか君に伝えたいな<br>
+<span class="hidden">b</span>日差しが2人を包んだ<br>
+<!--<span class="hidden">b</span>--><br>
+<span class="hidden">c</span>同じ制服　着ているけれど<br>
+<span class="hidden">3</span>何も知らない<br>
+<span class="hidden">-</span>先輩なのか　同級生なのか<br>
+<span class="hidden">b</span>ヒントはないのに　ボーッと考えてしまう<br>
+<!--<span class="hidden">a</span>--><br>
+<span class="hidden">4</span>クラスの女子に人気　ヘアオイル<br>
+<span class="hidden">5</span>いつもより温度高め　ストレート<br>
+<span class="hidden">4</span>ドアが開いたら<br>
+<span class="hidden">0</span>今日もいるのかな<br>
+<span class="hidden">7</span>誰も知らない　待ち合わせ<br>
+<!--<span class="hidden">d</span>--><br>
+<span class="hidden">a</span>ずっと不思議だった<br>
+<span class="hidden">3</span>みんなは知ってて　私は知らない色<br>
+<span class="hidden">f</span>突然　パッと　現れたカラー<br>
+<span class="hidden">f</span>感情のパレット　君でいっぱいで<br>
+春の風は　そう　強く　ねえ　吹き付け　気持ち乱す<br>
+目が合った時　どう思ったの<br>
+いつもの各停　特急に変わった気がした<br>
+<br>
+ある日　花が咲きました<br>
+花の咲かない街でした<br>
+それはそれは眩しくて綺麗でした<br>
+パステルでビビッドな<br>
+初めてのこの気持ちは　きっと…<br>
+<br>
+会いたかったんだ　ずっと<br>
+心の底から惹かれる　特別な人<br>
+君に出会って　やっと気付いたよ<br>
+開いた桜には「恋」と名前を付けよう<br>
+<br>
+好きになったんだ<br>
+好きが咲いたんだ<br>
+それは　日常　全てを彩り　景色を変える<br>
+見たことのない　ハートの震え<br>
+電車の揺れが
+Ah　誤魔化してくれたんだ<br>
+春の空は　ねえ　雲が　そう　広がり青を隠す<br>
+明日の次の　そのもっと先で<br>
+桜が咲く音　君にも聞こえたらいいな<br>
+日差しが 2人を包んで　抱きしめた
+</div>
+
+<div class="right">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ucm8mk6bJ7bExJJk5LohK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0ImFNEs7P_Q?si=STogNNKzV4H_6rEj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <img src="https://s3-aop.plusmember.jp/prod/public/equallove/contents/discography/3809ea86c2f60c7778c06fe6d53e1188.jpeg" />
+</div>
+
+</div>
+'''
+
+[[quiz]]
+name = "02 WIP"
+redpacket = { code = "等待装填，过会来看看吧x", price = 1.14, count = 50 }
+description = '''
+
+'''
+
+[[quiz]]
+name = "03 WIP"
+redpacket = { code = "等待装填，过会来看看吧x", price = 1.14, count = 50 }
+description = '''
+
+'''
+
+[[quiz]]
+name = "2024 新年快乐！"
+description = '''
+又是一年过去，真是快啊。<br>
+很多故事在
+'''
