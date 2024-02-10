@@ -115,15 +115,18 @@ Ah　誤魔化してくれたんだ<br>
 '''
 
 [[quiz]]
-name = "02 WIP"
+name = "点击就送（？）"
 redpacket = { code = "等待装填，过会来看看吧x", price = 1.14, count = 50 }
 description = '''
-
+新的一年，红包点击就送，看看你的浏览器是否强壮（？
 '''
+links = [
+  { name = "点点", url = "https://google.com" }
+]
 
 [[quiz]]
-name = "03 WIP"
-redpacket = { code = "等待装填，过会来看看吧x", price = 1.14, count = 50 }
+name = "Flag Peer"
+redpacket = { code = "等待装填，过会来看看吧x", price = 5.14, count = 30 }
 description = '''
 
 '''
