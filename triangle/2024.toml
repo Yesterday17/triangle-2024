@@ -121,7 +121,7 @@ description = '''
 新的一年，红包点击就送，看看你的浏览器是否强壮（？
 '''
 links = [
-  { name = "点点", url = "https://google.com" }
+  { name = "点点", url = "https://yesterday17.github.io/triangle-2024/framer/index.html" }
 ]
 
 [[quiz]]
