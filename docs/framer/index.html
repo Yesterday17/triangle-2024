@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+    <title>V50看看浏览器实力</title>
     <style>
         body {
             margin: 0;
@@ -72,13 +72,14 @@
 
         function decrypt(input, rounds) {
             let decrypted = hexOrUuidToUint8Array(input);
-            for (let i = rounds - 1; i >= 0 ; i--) {
+            for (let i = rounds - 1; i >= 0; i--) {
                 const keyBase = `${String(i).padStart(0).split('').reverse().join('')} + ${String(i).padStart(4, 0)}^0xff`;
                 const key = new Uint8Array(16);
                 for (let j = 0; j < 16; j++) {
                     key[j] = keyBase.charCodeAt(j % keyBase.length) << (i % 8);
                 }
                 decrypted = xorEncryptDecrypt(decrypted, key);
+                break;
             }
             return uint8ArrayToHex(decrypted);
         }
@@ -89,13 +90,15 @@
         })
 
         const layer = document.querySelector('#layer');
+        let nowFlag = initialFlag;
+        let nowWindow = globalThis;
         let layers = 0;
-        let now = globalThis;
-        while (now !== window.top) {
-            now = now.parent;
+        while (nowWindow !== window.top) {
+            nowWindow = nowWindow.parent;
             layers++;
+            nowFlag = decrypt(nowFlag, layers);
+            layer.textContent = `Progress: ${layers}/2024, Flag = ${nowFlag}`;
         }
-        layer.textContent = `Progress: ${layers}/2024, Flag = ${decrypt(initialFlag, layers)}`;
     </script>
 </body>
 

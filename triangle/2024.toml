@@ -1,3 +1,6 @@
+# 总投资：50*1.88+30*10.24+20*15.24 = 706
+# 潜在投资：$20*20
+
 [[quiz]]
 name = "桜の咲く音がした"
 redpacket = { code = "用于演示的红包口令", price = 0, count = 0 }
@@ -116,7 +119,7 @@ Ah　誤魔化してくれたんだ<br>
 
 [[quiz]]
 name = "点击就送（？）"
-redpacket = { code = "等待装填，过会来看看吧x", price = 1.14, count = 50 }
+redpacket = { code = "等待装填，过会来看看吧x", price = 1.88, count = 50 }
 description = '''
 新的一年，红包点击就送，看看你的浏览器是否强壮（？
 '''
@@ -125,14 +128,18 @@ links = [
 ]
 
 [[quiz]]
-name = "Flag Peer"
-redpacket = { code = "等待装填，过会来看看吧x", price = 5.14, count = 30 }
+name = "語るなら未来を"
+redpacket = { code = "等待装填，过会来看看吧x", price = 10.24, count = 30 }
 description = '''
 
 '''
+links = [
+  { name = "聊聊未来", url = https://chat.openai.com/g/g-S3ydBdkkP-melody-flag" }
+]
 
 [[quiz]]
 name = "2024 新年快乐！"
+redpacket = { code = "等待装填，过会来看看吧x", price = 20.24, count = 15 }
 description = '''
 又是一年过去，真是快啊。<br>
 很多故事在
