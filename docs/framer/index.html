@@ -25,11 +25,11 @@
 <body>
     <div id="main">
         <h2 id="layer"></h2>
-        <button id="button">Make progress</button>
+        <button id="button">点点</button>
     </div>
     <script>
-        const initialFlag = '569c30e64ac3554f204c636820fcb6c3';
-        function xorEncryptDecrypt(input, key) {
+        const nanikore = '569c30e64ac3554f204c636820fcb6c3';
+        function xor(input, key) {
             const output = new Uint8Array(input.length);
             for (let i = 0; i < input.length; i++) {
                 output[i] = input[i] ^ key[i];
@@ -37,9 +37,7 @@
             return output;
         }
 
-        function hexOrUuidToUint8Array(input) {
-            //input is a typical uuid, convert it to Uint8Array
-            //xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -> Uint8Array
+        function toBuffer(input) {
             const inputArray = new Uint8Array(16);
             input = input.replace(/-/g, '');
             for (let i = 0; i < 16; i++) {
@@ -48,40 +46,27 @@
             return inputArray;
         }
 
-        function encrypt(input, rounds) {
-            let encrypted = hexOrUuidToUint8Array(input);
-            for (let i = 0; i < rounds; i++) {
-                const keyBase = `${String(i).padStart(0).split('').reverse().join('')} + ${String(i).padStart(4, 0)}^0xff`;
-                for (let j = 0; j < 16; j++) {
-                    key[j] = keyBase.charCodeAt(j % keyBase.length) << (i % 8);
-                }
-                encrypted = xorEncryptDecrypt(encrypted, key);
-            }
-            return uint8ArrayToHex(encrypted);
-        }
-
-        function uint8ArrayToHex(input) {
+        function toUUID(input) {
             let output = '';
             for (let i = 0; i < input.length; i++) {
                 output += input[i].toString(16).padStart(2, 0);
             }
-            // output -> uuid
             output = `${output.substr(0, 8)}-${output.substr(8, 4)}-${output.substr(12, 4)}-${output.substr(16, 4)}-${output.substr(20)}`;
             return output;
         }
 
-        function decrypt(input, rounds) {
-            let decrypted = hexOrUuidToUint8Array(input);
-            for (let i = rounds - 1; i >= 0; i--) {
-                const keyBase = `${String(i).padStart(0).split('').reverse().join('')} + ${String(i).padStart(4, 0)}^0xff`;
-                const key = new Uint8Array(16);
+        function gen(input, r) {
+            let result = toBuffer(input);
+            for (let i = r - 1; i >= 0; i--) {
+                const kStr = `${String(i).padStart(0).split('').reverse().join('')} + ${String(i).padStart(4, 0)}^0xff`;
+                const k = new Uint8Array(16);
                 for (let j = 0; j < 16; j++) {
-                    key[j] = keyBase.charCodeAt(j % keyBase.length) << (i % 8);
+                    k[j] = kStr.charCodeAt(j % kStr.length) << (i % 8);
                 }
-                decrypted = xorEncryptDecrypt(decrypted, key);
+                result = xor(result, k);
                 break;
             }
-            return uint8ArrayToHex(decrypted);
+            return toUUID(result);
         }
 
         const button = document.querySelector('#button');
@@ -90,14 +75,14 @@
         })
 
         const layer = document.querySelector('#layer');
-        let nowFlag = initialFlag;
+        let nowResult = nanikore;
         let nowWindow = globalThis;
         let layers = 0;
         while (nowWindow !== window.top) {
             nowWindow = nowWindow.parent;
             layers++;
-            nowFlag = decrypt(nowFlag, layers);
-            layer.textContent = `Progress: ${layers}/2024, Flag = ${nowFlag}`;
+            nowResult = gen(nowResult, layers);
+            layer.textContent = `进度: ${layers}/2024，Flag = ${nowResult}`;
         }
     </script>
 </body>
