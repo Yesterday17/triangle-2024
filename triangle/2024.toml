@@ -134,7 +134,7 @@ links = [
 
 [[quiz]]
 name = "語るなら未来を…"
-redpacket = { code = "等待装填，过会来看看吧x", price = 10.24, count = 30 }
+redpacket = { code = "65828050", price = 10.24, count = 30 }
 description = '''
 新的一年，跟机器人聊聊未来（？<br><br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RuEQdpv5ys4v6kz5HvH5A?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
