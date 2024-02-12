@@ -128,7 +128,7 @@ description = '''
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/58AaOttYBBcEtIBgxCVoig?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 '''
 links = [
-  { name = "点点", url = "https://yesterday17.github.io/triangle-2024/framer/index.html" },
+  { name = "点点  ", url = "https://yesterday17.github.io/triangle-2024/framer/index.html" },
   { name = "休息一下（与本题无关）", url = "https://www.bilibili.com/video/BV1aV4y1d7iu" }
 ]
 
@@ -140,14 +140,23 @@ description = '''
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RuEQdpv5ys4v6kz5HvH5A?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 '''
 links = [
-  { name = "聊聊未来", url = "https://chat.openai.com/g/g-S3ydBdkkP-melody-flag" },
+  { name = "聊聊未来  ", url = "https://chat.openai.com/g/g-S3ydBdkkP-melody-flag" },
   { name = "看点视频（与本题无关）", url = "https://www.bilibili.com/video/BV1CC4y1A7f7" }
 ]
 
 [[quiz]]
 name = "2024 新年快乐！"
-redpacket = { code = "等待装填，过会来看看吧x", price = 20.24, count = 15 }
+redpacket = { code = "51705450", price = 20.24, count = 15 }
 description = '''
 又是一年过去，真是快啊。<br>
-很多故事在
+很多故事在2023年都画下了中止符，又有一些故事开始。周而复始，构成了完整的一年。<br>
+2024年红包的核心主题是「让大家能开开心心领到」，因此今年的选题尽可能减少了前几年的烧脑程度，希望能够变成一些更加纯粹的东西。这个目标究竟有没有实现，就要看今年的红包领取情况了（笑）。<br>
+第一题延续前年的题目设计，是简单的白给。由于有些事情意识到地比较晚，所以这道题依然还是小藏了一下。明年的设计应该能更加白给一点（x<br>
+第二题的设计想法是大家只要能一直点下去就能拿到红包，不知道有没有人的浏览器足够强壮x<br>
+第三题替换了原来的想法，希望大家能够都玩一玩 GPT。GPT 的报销机制我隐藏在了解出题目之后，希望我的钱包没事🙏<br>
+总之，今年的新年解谜红包也是顺利地发出来了，对于能看到这里的你来说，这场短暂的解谜之旅能称得上“有趣”吗？欢迎在评论里留下你的想法。<br>
+希望大家新的一年都能找到自己想做的事情！当然了，如果能来给我的项目打工就更好不过了（笑）
 '''
+links = [
+  { name = "来打工（？）", url = "https://t.me/+8tokoWliFak1Yjk9" }
+]
