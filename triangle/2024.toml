@@ -121,7 +121,7 @@ Ah　誤魔化してくれたんだ<br>
 
 [[quiz]]
 name = "ユエニ"
-redpacket = { code = "等待装填，过会来看看吧x", price = 1.88, count = 50 }
+redpacket = { code = "10343350", price = 1.88, count = 50 }
 description = '''
 新的一年，红包点击就送，看看你的浏览器是否强壮（？<br><br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/58AaOttYBBcEtIBgxCVoig?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
