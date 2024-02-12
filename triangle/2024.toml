@@ -125,8 +125,6 @@ redpacket = { code = "等待装填，过会来看看吧x", price = 1.88, count =
 description = '''
 新的一年，红包点击就送，看看你的浏览器是否强壮（？<br><br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/58AaOttYBBcEtIBgxCVoig?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br><br>
-<div id="kashi_area" itemprop="text">せいぜい　これくらいの交点<br>保ったままでいたいようで<br>不安で削れるのが本音<br>だとしてその本心　告白できる？<br><br>だいたい　ウソばかりの表面<br>慕っていたいからでしょうね<br>不毛な探り合いがただ愉しいのは<br>まだ白くみえるから<br><br>きっと糸か矢とか<br>あるものだと決めつけた<br>でも　くれないなら<br>縋るほどのもんじゃないの<br><br>甘い恋の果てとか<br>堅い愛の誓いとか<br>夢みたようなもんじゃないってこと<br>価値も知れてんの<br>このセカイの崖を<br>一組の脚で跨ぐために<br>I = 自己愛<br>研げないなら　まだ<br>触れなくて　都合いい<br><br>なあなあのまま　生きる今日で<br>ハマんない距離掴むのが争点<br>不幸な譲り合いで　なんとかなるのは<br>限られた期間だけ<br><br>ああ、意図か的が<br>分かち合える気がしてた<br>でも　それじゃダメね<br>満ちるほどじゃなくて<br><br>辛い夜の糧とか<br>淡い未知の期待とか<br>求めたようなもんじゃないってのが<br>常だと知ってんの<br>そのセカイの穴は<br>一匙の自信で埋まるもの<br>愛 = 自己愛<br>足りないなら　まだ<br>触れなくて　都合いい<br><br>繋いだ量と時間を<br>勘定していくなら<br>安定剤　完成したって<br>当然出る不透明さに　際限ない<br><br>赤い糸の果てとか<br>硬い銀の誓いとか<br>指先だけなんてケチんないで<br>全てにしてよ<br><br>甘い恋の果てとか<br>堅い愛の誓いとか<br>夢みたようなもんじゃないってのも<br>価値もわかる<br>でも　このセカイの先で<br>解り合う居場所　目指して<br>アイ = 利他愛<br>遂げないなら　まだ<br>くれなくて　都合いい</div>
 '''
 links = [
   { name = "点点", url = "https://yesterday17.github.io/triangle-2024/framer/index.html" },
@@ -139,8 +137,6 @@ redpacket = { code = "等待装填，过会来看看吧x", price = 10.24, count 
 description = '''
 新的一年，跟机器人聊聊未来（？<br><br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3RuEQdpv5ys4v6kz5HvH5A?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br><br>
-<div id="kashi_area" itemprop="text">ふいだった<br>ただのアンラッキー<br>心が一瞬声上げた<br><br>ガラス瓶<br>落として割れたら<br>元になんて戻せないんだ<br><br>何が入ってたかなんて<br>明かしても意味がない<br>アスファルトの上<br>広がった<br>ただの黒い染み<br><br>もう　失った人生なんて語るな<br>ほんの一部でしかないんだ<br>手に入れたのは脆(もろ)い現実と<br>飾られた嘘のレッテル<br>破片(かけら)を拾い集めるな<br>語るなら　未来を…<br><br>終わったんだ<br>無駄なエピローグ<br>往生際が悪すぎる<br><br>手に取って<br>確かめようにも<br>そこにないならしょうがない<br><br>誰のせいでもないだろう<br>振り返る余裕ない<br>腹立たしさとか<br>悔しさは<br>思い上がりだよ<br><br>今だから言えることは語るな<br>墓の中まで持って行け<br>言葉にすれば安い願望と<br>オーバーに盛った真実<br>過去など自己嫌悪しかない<br>語るなら　予言を…<br><br>人は心の中に<br>ガラスの瓶がある<br>愛や夢を詰め込んで<br>割らぬように大事に<br>守っているけれど…<br><br>もう　失った人生なんて語るな<br>ほんの一部でしかないんだ<br>手に入れたのは脆い現実と<br>飾られた嘘のレッテル<br><br>今だから言えることは語るな<br>墓の中まで持って行け<br>言葉にすれば安い願望と<br>オーバーに盛った真実<br>過去など自己嫌悪しかない<br>語るなら　予言を…</div>
 '''
 links = [
   { name = "聊聊未来", url = "https://chat.openai.com/g/g-S3ydBdkkP-melody-flag" },
